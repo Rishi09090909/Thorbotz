@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/rk_update")
-                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/ipopcornofficialgroup")
+                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/PMbollywoodMovies")
+                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/PicashowMoviesRequestGroup")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -556,7 +556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/Rk_back_up")
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/PMbollywoodMovies")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -719,10 +719,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/rk_update')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/PMbollywoodMovies')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/rk_update'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rk_botz')
+                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/PMbollywoodMovies'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/PicashowMoviesRequestGroup')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
