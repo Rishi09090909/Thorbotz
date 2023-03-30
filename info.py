@@ -42,9 +42,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rishi08")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ipopcornofficialgroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/rk_update')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.dog/Rkbotzbot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/PicashowMoviesRequestGroup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/PMbollywoodMovies')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/PMbollywoodMovies')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
