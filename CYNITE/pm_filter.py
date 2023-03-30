@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🍿', url="https://t.me/PMbollywoodMovies")
-                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🍿', url="https://t.me/PicashowMoviesRequestGroup")
+                    InlineKeyboardButton('🍿ᴊᴏɪɴ ᴍʏ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ🍿', url="https://t.me/+YTb1GHEGmDowMTg1")
+                  ],[InlineKeyboardButton('🍿ᴊᴏɪɴ ᴍʏ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ🍿', url="https://t.me/+qOWEUhCAxzdlYzhl")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -556,7 +556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/PMbollywoodMovies")
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/the_flashAll")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -719,10 +719,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/PMbollywoodMovies')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/the_flashAll')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/PMbollywoodMovies'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/PicashowMoviesRequestGroup')
+                      InlineKeyboardButton('ᴍᴀɪɴ', url='https://t.me/+qOWEUhCAxzdlYzhl'),
+                      InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/material_file001')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
