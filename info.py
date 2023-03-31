@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rishi08")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Bkmovierequestgroup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_free_downlad_HD')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+YTb1GHEGmDowMTg1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Bkmovierequestgroup')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
@@ -80,7 +80,7 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 900))
+DELETE_TIME = int(environ.get('DELETE_TIME', 180))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
